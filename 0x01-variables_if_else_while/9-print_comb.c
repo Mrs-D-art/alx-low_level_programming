@@ -5,16 +5,18 @@
  */
 int main(void)
 {
-	int n;
-	for (n = 48; n < 58; n++)
+	int n = 0;
+
+	while (n < 10)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(48 + n);
+		if (n != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		putchar('\n');
+		c++;
 	}
+	putchar('\n');
 		return (0);
 }
