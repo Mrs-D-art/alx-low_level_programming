@@ -4,11 +4,14 @@
  * _abs - absolute value
  * Return: always 0
  */
-int _abs(int n)
+int _abs(int t)
 {
-	if (n < 0)
+	if (t >=0 )
 	{
-		n = (-1) * n;
+		return (t);
 	}
-	_putchar(n);
+	else
+	{
+		return (-t);
+	}
 }
