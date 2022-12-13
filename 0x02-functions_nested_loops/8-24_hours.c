@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer
+ * jack_bauer - print every timestamp
  * Return: 0
  */
 void jack_bauer(void)
