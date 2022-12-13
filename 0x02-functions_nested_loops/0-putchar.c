@@ -1,9 +1,12 @@
-#include <main.h>
+#include "main.h"
+#include <unistd.h>
+
 /**
  * main - entry
  * Return: 0
  *
  */
+
 int main(void)
 {
 	_putchar('_');
