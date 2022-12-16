@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_numbers - Prints the numbers from 0-9.
- * @c: refrence
+ * print_numbers - Prints the numbers from 0 - 9.
+ * Reurn: void
  */
 
 void print_numbers(void)
