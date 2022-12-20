@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - Prints an inputted number of elements
@@ -8,16 +9,14 @@
  */
 void print_array(int *a, int n)
 {
-	int index;
+	int index = 0;
 
 	for (index = 0; index < n; index++)
 	{
 		printf("%d", a[index]);
 
-		if (index == n - 1)
-			continue;
-
-		printf(", ");
+		if (index < n - 1)
+			printf(", ");
 	}
 
 	printf("\n");
